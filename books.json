@@ -40,5 +40,26 @@
     "anno": 2016,
     "editore": "Garzanti",
     "cover": "watson.jpg"
+  },
+  {
+    "titolo": "Decifrare la vita",
+    "autore": "Walter Isaacson",
+    "anno": 2021,
+    "editore": "Mondadori",
+    "cover": "doudna.jpg"
+  },
+  {
+    "titolo": "Il genio dei numeri",
+    "autore": "Sylvia Nasar",
+    "anno": 2002,
+    "editore": "BUR - Rizzoli",
+    "cover": "nash.jpg"
+  },
+  {
+    "titolo": "L'uomo venuto dal futuro",
+    "autore": "Ananyo Bhattacharya",
+    "anno": 2024,
+    "editore": "Adelphi",
+    "cover": "von-neumann.jpg"
   }
 ]
