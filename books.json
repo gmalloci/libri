@@ -1,0 +1,17 @@
+[
+  {
+    "titolo": "Il nome della rosa",
+    "autore": "Umberto Eco",
+    "anno": 1980,
+    "editore": "Bompiani",
+    "cover": "eco.jpg"
+  },
+  {
+    "titolo": "Se questo è un uomo",
+    "autore": "Primo Levi",
+    "anno": 1947,
+    "editore": "Einaudi",
+    "cover": "levi.jpg"
+  }
+]
+

@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Galleria libri</title>
+  <style>
+    body { font-family: system-ui, Arial; margin: 0; background:#fafafa; color:#111; }
+    header { padding: 18px 16px; background: white; position: sticky; top: 0; border-bottom: 1px solid #eee; z-index: 10; }
+    h1 { margin: 0 0 8px; font-size: 20px; }
+    input { width: 100%; max-width: 760px; padding: 10px 12px; font-size: 16px; border: 1px solid #ddd; border-radius: 10px; }
+    .meta { margin-top: 8px; color:#666; font-size: 14px; }
+
+    main { padding: 18px 16px; max-width: 1200px; margin: 0 auto; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); gap: 16px; }
+
+    .card { background: white; border: 1px solid #eee; border-radius: 14px; overflow: hidden; box-shadow: 0 2px 10px rgba(0,0,0,0.04); cursor: pointer; }
+    .cover { width: 100%; aspect-ratio: 2/3; background: #f2f2f2; display:flex; align-items:center; justify-content:center; }
+    .cover img { width: 100%; height: 100%; object-fit: cover; display:block; }
+    .info { padding: 10px 10px 12px; }
+    .title { font-weight: 700; font-size: 14px; line-height: 1.2; margin-bottom: 6px; }
+    .small { font-size: 12px; color: #666; line-height: 1.2; }
+
+    dialog { border: none; border-radius: 16px; width: min(920px, 96vw); padding: 0; }
+    dialog::backdrop { background: rgba(0,0,0,0.55); }
+    .modal { display:grid; grid-template-columns: 1fr 1fr; }
+    .modal .left { background:#111; display:flex; align-items:center; justify-content:center; }
+    .modal .left img { width: 100%; height: 100%; max-height: 80vh; object-fit: contain; }
+    .modal .right { padding: 18px; background: white; }
+    .modal h2 { margin: 0 0 10px; font-size: 22px; }
+    .close { border:1px solid #ddd; background:white; padding:10px 12px; border-radius: 12px; cursor:pointer; }
+
+    @media (max-width: 760px) {
+      .modal { grid-template-columns: 1fr; }
+      .modal .left img { max-height: 60vh; }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Galleria copertine</h1>
+    <input id="q" placeholder="Cerca per titolo, autore, anno o editore..." />
+    <div class="meta" id="count"></div>
+  </header>
+
+  <main>
+    <div class="grid" id="grid"></div>
+  </main>
+
+  <dialog id="dlg">
+    <div class="modal">
+      <div class="left"><img id="dlgImg" alt=""></div>
+      <div class="right">
+        <button class="close" id="dlgClose">Chiudi</button>
+        <h2 id="dlgTitle"></h2>
+        <p id="dlgText"></p>
+      </div>
+    </div>
+  </dialog>
+
+  <script>
+    const COVERS_DIR = "covers/";
+    const DATA_URL = "books.json";
+
+    let books = [];
+
+    function escapeHtml(s) {
+      return (s ?? "").toString()
+        .replaceAll("&", "&amp;")
+        .replaceAll("<", "&lt;")
+        .replaceAll(">", "&gt;")
+        .replaceAll('"', "&quot;");
+    }
+
+    function render(list) {
+      const grid = document.getElementById("grid");
+      grid.innerHTML = "";
+
+      for (const b of list) {
+        const card = document.createElement("div");
+        card.className = "card";
+
+        const cover = document.createElement("div");
+        cover.className = "cover";
+
+        const img = document.createElement("img");
+        img.loading = "lazy";
+        img.alt = b.titolo || "";
+        img.src = COVERS_DIR + (b.cover || "");
+
+        img.onerror = () => {
+          img.remove();
+          cover.textContent = "Copertina non disponibile";
+          cover.style.color = "#666";
+          cover.style.fontSize = "12px";
+        };
+
+        cover.appendChild(img);
+
+        const info = document.createElement("div");
+        info.className = "info";
+        info.innerHTML = `
+          <div class="title">${escapeHtml(b.titolo)}</div>
+          <div class="small">${escapeHtml(b.autore)}</div>
+          <div class="small">${escapeHtml(b.anno)} · ${escapeHtml(b.editore)}</div>
+        `;
+
+        card.appendChild(cover);
+        card.appendChild(info);
+        card.onclick = () => openModal(b);
+
+        grid.appendChild(card);
+      }
+
+      document.getElementById("count").textContent = `Libri mostrati: ${list.length} / ${books.length}`;
+    }
+
+    function filterBooks(query) {
+      query = query.trim().toLowerCase();
+      if (!query) return books;
+
+      return books.filter(b => {
+        const text = `${b.titolo} ${b.autore} ${b.anno} ${b.editore}`.toLowerCase();
+        return text.includes(query);
+      });
+    }
+
+    function openModal(b) {
+      const dlg = document.getElementById("dlg");
+      document.getElementById("dlgImg").src = COVERS_DIR + (b.cover || "");
+      document.getElementById("dlgTitle").textContent = b.titolo || "";
+      document.getElementById("dlgText").innerHTML =
+        `<b>Autore:</b> ${escapeHtml(b.autore)}<br>
+         <b>Anno:</b> ${escapeHtml(b.anno)}<br>
+         <b>Editore:</b> ${escapeHtml(b.editore)}`;
+      dlg.showModal();
+    }
+
+    async function init() {
+      const res = await fetch(DATA_URL);
+      books = await res.json();
+
+      // Ordinamento (opzionale): titolo
+      books.sort((a, b) => (a.titolo || "").localeCompare(b.titolo || "", "it"));
+
+      render(books);
+
+      document.getElementById("q").addEventListener("input", (e) => {
+        render(filterBooks(e.target.value));
+      });
+
+      document.getElementById("dlgClose").onclick = () => document.getElementById("dlg").close();
+      document.getElementById("dlg").addEventListener("click", (e) => {
+        if (e.target.id === "dlg") document.getElementById("dlg").close();
+      });
+    }
+
+    init();
+  </script>
+</body>
+</html>
