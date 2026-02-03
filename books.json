@@ -26,5 +26,19 @@
     "anno": 1993,
     "editore": "Dedalo",
     "cover": "diavoletto.jpg"
+  },
+  {
+    "titolo": "Enrico Fermi. L'ultimo uomo che sapeva tutto",
+    "autore": "David N. Schwartz",
+    "anno": 2020,
+    "editore": "Solferino",
+    "cover": "fermi.jpg"
+  },
+  {
+    "titolo": "La doppia elica",
+    "autore": "James D. Watson, Gunther S. Stent (a cura di)",
+    "anno": 2016,
+    "editore": "Garzanti",
+    "cover": "watson.jpg"
   }
 ]
