@@ -61,5 +61,26 @@
     "anno": 2024,
     "editore": "Adelphi",
     "cover": "von-neumann.jpg"
+  },
+  {
+    "titolo": "Al suo barbiere Einstein la raccontava così",
+    "autore": "Robert L. Wolke",
+    "anno": 2014,
+    "editore": "Feltrinelli",
+    "cover": "wolke1.jpg"
+  },
+  {
+    "titolo": "Einstein al suo cuoco la raccontava così",
+    "autore": "Robert L. Wolke",
+    "anno": 2016,
+    "editore": "Feltrinelli",
+    "cover": "wolke2.jpg"
+  },
+  {
+    "titolo": "Luce, colore, visione",
+    "autore": "Andrea Frova",
+    "anno": 2000,
+    "editore": "Rizzoli",
+    "cover": "frova-luce.jpg"
   }
 ]
