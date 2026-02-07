@@ -82,5 +82,26 @@
     "anno": 2000,
     "editore": "Rizzoli",
     "cover": "frova-luce.jpg"
+  },
+  {
+    "titolo": "In un volo di storni",
+    "autore": "Giorgio Parisi",
+    "anno": 2021,
+    "editore": "Rizzoli",
+    "cover": "parisi.jpg"
+  },
+  {
+    "titolo": "Einstein e il suo universo gonfiabile",
+    "autore": "Mike Goldsmith",
+    "anno": 2003,
+    "editore": "Salani",
+    "cover": "einstein-gonfiabile.jpg"
+  },
+  {
+    "titolo": "Oppenheimer. Trionfo e caduta dell'inventore della bomba atomica",
+    "autore": "Kai Bird, Martin J. Sherwin",
+    "anno": 2023,
+    "editore": "Garzanti",
+    "cover": "oppenheimer.jpg"
   }
 ]
