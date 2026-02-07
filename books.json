@@ -138,5 +138,33 @@
     "anno": 2011,
     "editore": "Zanichelli",
     "cover": "scienza-nel-pallone.jpg"
+  },
+  {
+    "titolo": "I primi tre minuti",
+    "autore": "Steven Weinberg",
+    "anno": 1994,
+    "editore": "De Agostini",
+    "cover": "weinberg.jpg"
+  },
+  {
+    "titolo": "Vi racconto l'astronomia",
+    "autore": "Margherita Hack",
+    "anno": 2002,
+    "editore": "Laterza",
+    "cover": "hack1.jpg"
+  },
+  {
+    "titolo": "La pazza scienza",
+    "autore": "Luca Perri",
+    "anno": 2017,
+    "editore": "Sironi",
+    "cover": "perri1.jpg"
+  },
+  {
+    "titolo": "Astrobufale",
+    "autore": "Luca Perri",
+    "anno": 2022,
+    "editore": "Rizzoli",
+    "cover": "perri2.jpg"
   }
 ]
