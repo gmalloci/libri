@@ -103,5 +103,40 @@
     "anno": 2023,
     "editore": "Garzanti",
     "cover": "oppenheimer.jpg"
+  },
+  {
+    "titolo": "Nel mondo di mezzo",
+    "autore": "Mark Haw",
+    "anno": 2008,
+    "editore": "Zanichelli",
+    "cover": "mondo-di-mezzo.jpg"
+  },
+  {
+    "titolo": "Il regno periodico",
+    "autore": "Peter Atkins",
+    "anno": 2007,
+    "editore": "Zanichelli",
+    "cover": "il-regno-periodico.jpg"
+  },
+  {
+    "titolo": "Le regole del gioco",
+    "autore": "Peter Atkins",
+    "anno": 2010,
+    "editore": "Zanichelli",
+    "cover": "regole-del-gioco.jpg"
+  },
+  {
+    "titolo": "Che cosa è la chimica? Un viaggio nel cuore della materia",
+    "autore": "Peter Atkins",
+    "anno": 2015,
+    "editore": "Zanichelli",
+    "cover": "chimica.jpg"
+  },
+  {
+    "titolo": "La scienza nel pallone",
+    "autore": "Nicola Ludwig, Gianbruno Guerrerio",
+    "anno": 2011,
+    "editore": "Zanichelli",
+    "cover": "scienza-nel-pallone.jpg"
   }
 ]
