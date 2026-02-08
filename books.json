@@ -14,6 +14,20 @@
     "cover": "levi.jpg"
   },
   {
+    "titolo": "Storie naturali",
+    "autore": "Primo Levi",
+    "anno": 1966,
+    "editore": "Einaudi",
+    "cover": "levi-storie-naturali.jpg"
+  },
+  {
+    "titolo": "Vizio di forma",
+    "autore": "Primo Levi",
+    "anno": 1971,
+    "editore": "Einaudi",
+    "cover": "levi-vizio-di-forma.jpg"
+  },
+  {
     "titolo": "Il cucchiaino scomparso",
     "autore": "Sam Kean",
     "anno": 2014,
@@ -166,5 +180,33 @@
     "anno": 2022,
     "editore": "Rizzoli",
     "cover": "perri2.jpg"
+  },
+  {
+    "titolo": "Gli enigmi del caso. Vicissitudini di un matematico",
+    "autore": "Mark Kac",
+    "anno": 1986,
+    "editore": "Bollati Boringhieri",
+    "cover": "kac.jpg"
+  },
+  {
+    "titolo": "Gli apprendisti stregoni. Dilemmi e contraddizioni degli scienziati nucleari",
+    "autore": "Robert Jungk",
+    "anno": 2016,
+    "editore": "Pgreco",
+    "cover": "apprendisti-stregoni.jpg"
+  },
+  {
+    "titolo": "Che cos'è la vita?",
+    "autore": "Erwin Schrödinger",
+    "anno": 1995,
+    "editore": "Adelphi",
+    "cover": "schrodinger.jpg"
+  },
+  {
+    "titolo": "Atomi, nuclei e particelle. Scritti divulgativi ed espositivi 1923-1952",
+    "autore": "Enrico Fermi",
+    "anno": 2009,
+    "editore": "Bollati Boringhieri",
+    "cover": "fermi2.jpg"
   }
 ]
