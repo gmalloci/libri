@@ -182,6 +182,34 @@
     "cover": "perri2.jpg"
   },
   {
+    "titolo": "Errori galattici",
+    "autore": "Luca Perri",
+    "anno": 2024,
+    "editore": "De Agostini",
+    "cover": "perri3.jpg"
+  },
+  {
+    "titolo": "Newton, la mela e Dio",
+    "autore": "Vincenzo Palermo",
+    "anno": 2016,
+    "editore": "Hoepli",
+    "cover": "newton-mela-dio.jpg"
+  },
+  {
+    "titolo": "La fisica in casa",
+    "autore": "Emiliano Ricci",
+    "anno": 2009,
+    "editore": "Giunti",
+    "cover": "ricci1.jpg"
+  },
+  {
+    "titolo": "La fisica fuori casa",
+    "autore": "Emiliano Ricci",
+    "anno": 2013,
+    "editore": "Giunti",
+    "cover": "ricci2.jpg"
+  },
+  {
     "titolo": "Gli enigmi del caso. Vicissitudini di un matematico",
     "autore": "Mark Kac",
     "anno": 1986,
@@ -208,5 +236,19 @@
     "anno": 2009,
     "editore": "Bollati Boringhieri",
     "cover": "fermi2.jpg"
+  },
+  {
+    "titolo": "Dal Big Bang ai buchi neri. Breve storia del tempo",
+    "autore": "Stephen W. Hawking",
+    "anno": 2015,
+    "editore": "BUR scienza",
+    "cover": "hawking1.jpg"
+  },
+  {
+    "titolo": "La teoria del tutto. Origine e destino dell'universo",
+    "autore": "Stephen W. Hawking",
+    "anno": 2015,
+    "editore": "BUR scienza",
+    "cover": "hawking2.jpg"
   }
 ]
