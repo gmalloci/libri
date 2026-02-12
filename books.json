@@ -250,5 +250,54 @@
     "anno": 2015,
     "editore": "BUR scienza",
     "cover": "hawking2.jpg"
+  },
+  {
+    "titolo": "Quanto è piccolo il mondo. Sorprese e speranze delle nanotecnologie",
+    "autore": "Gianfranco Pacchioni",
+    "anno": 2007,
+    "editore": "Zanichelli",
+    "cover": "pacchioni.jpg"
+  },
+  {
+    "titolo": "Il nanomondo dai virus ai transistor",
+    "autore": "Gianfranco Pacchioni",
+    "anno": 2024,
+    "editore": "Dedalo",
+    "cover": "pacchioni1.jpg"
+  },
+  {
+    "titolo": "Algoritmi per un nuovo mondo",
+    "autore": "Alfio Quarteroni",
+    "anno": 2021,
+    "editore": "Dedalo",
+    "cover": "quarteroni.jpg"
+  },
+  {
+    "titolo": "Hiroshima. La fisica riconosce il peccato",
+    "autore": "Pietro Greco e Ilenia Picardi",
+    "anno": 2005,
+    "editore": "Nuova Iniziativa Editoriale",
+    "cover": "hiroshima.jpg"
+  },
+  {
+    "titolo": "Una forza della natura. Ernest Rutherford, genio di frontiera",
+    "autore": "Richard Reeves",
+    "anno": 2010,
+    "editore": "Codice",
+    "cover": "rutherford.jpg"
+  },
+  {
+    "titolo": "Francis Crick. Lo scopritore del codice genetico",
+    "autore": "Matt Ridley",
+    "anno": 2010,
+    "editore": "Codice",
+    "cover": "crick.jpg"
+  },
+  {
+    "titolo": "Il nanomondo dai virus ai transistor",
+    "autore": "Gianfranco Pacchioni",
+    "anno": 2024,
+    "editore": "Dedalo",
+    "cover": "pacchioni1.jpg"
   }
 ]
