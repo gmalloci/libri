@@ -1,5 +1,33 @@
 [
   {
+    "titolo": "Stella per stella. Guida turistica dell'universo",
+    "autore": "Pero Bianucci",
+    "anno": 1997,
+    "editore": "Giunti",
+    "cover": "stella-per-stella.jpg"
+  },
+  {
+    "titolo": "Isaac Newton e la sua mela",
+    "autore": "Kjartan Poskitt",
+    "anno": 2002,
+    "editore": "Sironi",
+    "cover": "newton-mela.jpg"
+  },
+  {
+    "titolo": "Cosa sono le nanotecnologie",
+    "autore": "Dario Narducci",
+    "anno": 2011,
+    "editore": "Sironi",
+    "cover": "nanotecnologie.jpg"
+  },
+  {
+    "titolo": "La fisica di Star Trek",
+    "autore": "Lawrence M. Krauss",
+    "anno": 2006,
+    "editore": "TEA scienze",
+    "cover": "star-trek.jpg"
+  },
+  {
     "titolo": "Il nome della rosa",
     "autore": "Umberto Eco",
     "anno": 1980,
@@ -96,6 +124,20 @@
     "anno": 2000,
     "editore": "Rizzoli",
     "cover": "frova-luce.jpg"
+  },
+  {
+    "titolo": "La fisica sotto il naso",
+    "autore": "Andrea Frova",
+    "anno": 2002,
+    "editore": "BUR",
+    "cover": "frova-naso.jpg"
+  },
+  {
+    "titolo": "Ragione per cui",
+    "autore": "Andrea Frova",
+    "anno": 2010,
+    "editore": "BUR",
+    "cover": "ragione-per-cui.jpg"
   },
   {
     "titolo": "In un volo di storni",
