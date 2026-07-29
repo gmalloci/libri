@@ -12,5 +12,327 @@
     "anno": 2002,
     "editore": "Sironi",
     "cover": "newton-mela.jpg"
+  },
+  {
+    "titolo": "Cosa sono le nanotecnologie",
+    "autore": "Dario Narducci",
+    "anno": 2011,
+    "editore": "Sironi",
+    "cover": "nanotecnologie.jpg"
+  },
+  {
+    "titolo": "La fisica di Star Trek",
+    "autore": "Lawrence M. Krauss",
+    "anno": 2006,
+    "editore": "TEA scienze",
+    "cover": "star-trek.jpg"
+  },
+  {
+    "titolo": "Storie naturali",
+    "autore": "Primo Levi",
+    "anno": 1966,
+    "editore": "Einaudi",
+    "cover": "levi-storie-naturali.jpg"
+  },
+  {
+    "titolo": "Vizio di forma",
+    "autore": "Primo Levi",
+    "anno": 1971,
+    "editore": "Einaudi",
+    "cover": "levi-vizio-di-forma.jpg"
+  },
+  {
+    "titolo": "Il cucchiaino scomparso",
+    "autore": "Sam Kean",
+    "anno": 2014,
+    "editore": "Adelphi",
+    "cover": "cucchiaino.jpg"
+  },
+  {
+    "titolo": "Il diavoletto di Maxwell",
+    "autore": "Partha Ghose, Dipankar Home",
+    "anno": 1993,
+    "editore": "Dedalo",
+    "cover": "diavoletto.jpg"
+  },
+  {
+    "titolo": "Enrico Fermi. L'ultimo uomo che sapeva tutto",
+    "autore": "David N. Schwartz",
+    "anno": 2020,
+    "editore": "Solferino",
+    "cover": "fermi.jpg"
+  },
+  {
+    "titolo": "La doppia elica",
+    "autore": "James D. Watson, Gunther S. Stent (a cura di)",
+    "anno": 2016,
+    "editore": "Garzanti",
+    "cover": "watson.jpg"
+  },
+  {
+    "titolo": "Decifrare la vita",
+    "autore": "Walter Isaacson",
+    "anno": 2021,
+    "editore": "Mondadori",
+    "cover": "doudna.jpg"
+  },
+  {
+    "titolo": "Il genio dei numeri",
+    "autore": "Sylvia Nasar",
+    "anno": 2002,
+    "editore": "BUR - Rizzoli",
+    "cover": "nash.jpg"
+  },
+  {
+    "titolo": "L'uomo venuto dal futuro",
+    "autore": "Ananyo Bhattacharya",
+    "anno": 2024,
+    "editore": "Adelphi",
+    "cover": "von-neumann.jpg"
+  },
+  {
+    "titolo": "Al suo barbiere Einstein la raccontava così",
+    "autore": "Robert L. Wolke",
+    "anno": 2014,
+    "editore": "Feltrinelli",
+    "cover": "wolke1.jpg"
+  },
+  {
+    "titolo": "Einstein al suo cuoco la raccontava così",
+    "autore": "Robert L. Wolke",
+    "anno": 2016,
+    "editore": "Feltrinelli",
+    "cover": "wolke2.jpg"
+  },
+  {
+    "titolo": "Luce, colore, visione",
+    "autore": "Andrea Frova",
+    "anno": 2000,
+    "editore": "Rizzoli",
+    "cover": "frova-luce.jpg"
+  },
+  {
+    "titolo": "La fisica sotto il naso",
+    "autore": "Andrea Frova",
+    "anno": 2002,
+    "editore": "BUR",
+    "cover": "frova-naso.jpg"
+  },
+  {
+    "titolo": "Ragione per cui",
+    "autore": "Andrea Frova",
+    "anno": 2010,
+    "editore": "BUR",
+    "cover": "ragione-per-cui.jpg"
+  },
+  {
+    "titolo": "In un volo di storni",
+    "autore": "Giorgio Parisi",
+    "anno": 2021,
+    "editore": "Rizzoli",
+    "cover": "parisi.jpg"
+  },
+  {
+    "titolo": "Einstein e il suo universo gonfiabile",
+    "autore": "Mike Goldsmith",
+    "anno": 2003,
+    "editore": "Salani",
+    "cover": "einstein-gonfiabile.jpg"
+  },
+  {
+    "titolo": "Oppenheimer. Trionfo e caduta dell'inventore della bomba atomica",
+    "autore": "Kai Bird, Martin J. Sherwin",
+    "anno": 2023,
+    "editore": "Garzanti",
+    "cover": "oppenheimer.jpg"
+  },
+  {
+    "titolo": "Nel mondo di mezzo",
+    "autore": "Mark Haw",
+    "anno": 2008,
+    "editore": "Zanichelli",
+    "cover": "mondo-di-mezzo.jpg"
+  },
+  {
+    "titolo": "Il regno periodico",
+    "autore": "Peter Atkins",
+    "anno": 2007,
+    "editore": "Zanichelli",
+    "cover": "il-regno-periodico.jpg"
+  },
+  {
+    "titolo": "Le regole del gioco",
+    "autore": "Peter Atkins",
+    "anno": 2010,
+    "editore": "Zanichelli",
+    "cover": "regole-del-gioco.jpg"
+  },
+  {
+    "titolo": "Che cosa è la chimica? Un viaggio nel cuore della materia",
+    "autore": "Peter Atkins",
+    "anno": 2015,
+    "editore": "Zanichelli",
+    "cover": "chimica.jpg"
+  },
+  {
+    "titolo": "La scienza nel pallone",
+    "autore": "Nicola Ludwig, Gianbruno Guerrerio",
+    "anno": 2011,
+    "editore": "Zanichelli",
+    "cover": "scienza-nel-pallone.jpg"
+  },
+  {
+    "titolo": "I primi tre minuti",
+    "autore": "Steven Weinberg",
+    "anno": 1994,
+    "editore": "De Agostini",
+    "cover": "weinberg.jpg"
+  },
+  {
+    "titolo": "Vi racconto l'astronomia",
+    "autore": "Margherita Hack",
+    "anno": 2002,
+    "editore": "Laterza",
+    "cover": "hack1.jpg"
+  },
+  {
+    "titolo": "La pazza scienza",
+    "autore": "Luca Perri",
+    "anno": 2017,
+    "editore": "Sironi",
+    "cover": "perri1.jpg"
+  },
+  {
+    "titolo": "Astrobufale",
+    "autore": "Luca Perri",
+    "anno": 2022,
+    "editore": "Rizzoli",
+    "cover": "perri2.jpg"
+  },
+  {
+    "titolo": "Errori galattici",
+    "autore": "Luca Perri",
+    "anno": 2024,
+    "editore": "De Agostini",
+    "cover": "perri3.jpg"
+  },
+  {
+    "titolo": "Newton, la mela e Dio",
+    "autore": "Vincenzo Palermo",
+    "anno": 2016,
+    "editore": "Hoepli",
+    "cover": "newton-mela-dio.jpg"
+  },
+  {
+    "titolo": "La fisica in casa",
+    "autore": "Emiliano Ricci",
+    "anno": 2009,
+    "editore": "Giunti",
+    "cover": "ricci1.jpg"
+  },
+  {
+    "titolo": "La fisica fuori casa",
+    "autore": "Emiliano Ricci",
+    "anno": 2013,
+    "editore": "Giunti",
+    "cover": "ricci2.jpg"
+  },
+  {
+    "titolo": "Gli enigmi del caso. Vicissitudini di un matematico",
+    "autore": "Mark Kac",
+    "anno": 1986,
+    "editore": "Bollati Boringhieri",
+    "cover": "kac.jpg"
+  },
+  {
+    "titolo": "Gli apprendisti stregoni. Dilemmi e contraddizioni degli scienziati nucleari",
+    "autore": "Robert Jungk",
+    "anno": 2016,
+    "editore": "Pgreco",
+    "cover": "apprendisti-stregoni.jpg"
+  },
+  {
+    "titolo": "Che cos'è la vita?",
+    "autore": "Erwin Schrödinger",
+    "anno": 1995,
+    "editore": "Adelphi",
+    "cover": "schrodinger.jpg"
+  },
+  {
+    "titolo": "Atomi, nuclei e particelle. Scritti divulgativi ed espositivi 1923-1952",
+    "autore": "Enrico Fermi",
+    "anno": 2009,
+    "editore": "Bollati Boringhieri",
+    "cover": "fermi2.jpg"
+  },
+  {
+    "titolo": "Dal Big Bang ai buchi neri. Breve storia del tempo",
+    "autore": "Stephen W. Hawking",
+    "anno": 2015,
+    "editore": "BUR scienza",
+    "cover": "hawking1.jpg"
+  },
+  {
+    "titolo": "La teoria del tutto. Origine e destino dell'universo",
+    "autore": "Stephen W. Hawking",
+    "anno": 2015,
+    "editore": "BUR scienza",
+    "cover": "hawking2.jpg"
+  },
+  {
+    "titolo": "Quanto è piccolo il mondo. Sorprese e speranze delle nanotecnologie",
+    "autore": "Gianfranco Pacchioni",
+    "anno": 2007,
+    "editore": "Zanichelli",
+    "cover": "pacchioni.jpg"
+  },
+  {
+    "titolo": "Il nanomondo dai virus ai transistor",
+    "autore": "Gianfranco Pacchioni",
+    "anno": 2024,
+    "editore": "Dedalo",
+    "cover": "pacchioni1.jpg"
+  },
+  {
+    "titolo": "Algoritmi per un nuovo mondo",
+    "autore": "Alfio Quarteroni",
+    "anno": 2021,
+    "editore": "Dedalo",
+    "cover": "quarteroni.jpg"
+  },
+  {
+    "titolo": "Hiroshima. La fisica riconosce il peccato",
+    "autore": "Pietro Greco e Ilenia Picardi",
+    "anno": 2005,
+    "editore": "Nuova Iniziativa Editoriale",
+    "cover": "hiroshima.jpg"
+  },
+  {
+    "titolo": "Una forza della natura. Ernest Rutherford, genio di frontiera",
+    "autore": "Richard Reeves",
+    "anno": 2010,
+    "editore": "Codice",
+    "cover": "rutherford.jpg"
+  },
+  {
+    "titolo": "Francis Crick. Lo scopritore del codice genetico",
+    "autore": "Matt Ridley",
+    "anno": 2010,
+    "editore": "Codice",
+    "cover": "crick.jpg"
+  },
+  {
+    "titolo": "Il nome della rosa",
+    "autore": "Umberto Eco",
+    "anno": 1980,
+    "editore": "Bompiani",
+    "cover": "eco.jpg"
+  },
+  {
+    "titolo": "Se questo è un uomo",
+    "autore": "Primo Levi",
+    "anno": 1947,
+    "editore": "Einaudi",
+    "cover": "levi.jpg"
   }
-]
+  ]
