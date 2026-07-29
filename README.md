@@ -1,3 +1,3 @@
 # Libri 
 
-Galleria di libri da leggere, prevalentemente di divulgazione scientifica
+Galleria di libri, prevalentemente di divulgazione scientifica
